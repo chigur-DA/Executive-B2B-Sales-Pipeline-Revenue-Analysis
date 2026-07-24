@@ -1,0 +1,20 @@
+SELECT
+    sp.opportunity_id,
+    sp.sales_agent,
+    sp.product,
+    sp.account,
+    sp.deal_stage,
+    sp.engage_date,
+    sp.close_date,
+    sp.close_value,
+    p.series AS product_series,
+    ac.office_location AS company_office_location,
+    ac.sector AS sector,
+    st.regional_office AS sales_agent_regional_office
+FROM `sales_data.sales_pipeline` AS sp
+LEFT JOIN `sales_data.accounts` AS ac 
+    ON sp.account = ac.account
+LEFT JOIN `sales_data.products` AS p 
+    ON sp.product = p.product
+LEFT JOIN `sales_data.sales_teams` AS st 
+    ON sp.sales_agent = st.sales_agent;
