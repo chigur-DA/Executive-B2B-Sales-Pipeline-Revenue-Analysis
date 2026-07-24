@@ -11,7 +11,7 @@ The objective of this project is to build an interactive executive dashboard to 
 
 ## Dashboard Visualization
 
-![Executive B2B Sales Pipeline Dashboard](Dashboard%201%20(6).png)
+![Executive B2B Sales Pipeline Dashboard](Dashboard.png)
 
 ## Key Performance Indicators (KPIs)
 
