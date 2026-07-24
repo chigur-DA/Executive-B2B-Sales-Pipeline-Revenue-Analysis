@@ -8,11 +8,10 @@ The objective of this project is to build an interactive executive dashboard to 
 * **Google BigQuery / SQL:** Data extraction, joining relational tables, and primary filtering.
 * **Python (Pandas, Google Cloud BigQuery API):** DWH connection, feature engineering (calculating sales cycle length), handling missing values, and data export.
 * **Tableau:** Building an interactive Executive Dashboard with KPIs, funnel analysis, and performance breakdowns.
----
 
 ## Dashboard Visualization
 
-![Executive B2B Sales Pipeline Dashboard](<dashboard(1)6.png>)
+![Executive B2B Sales Pipeline Dashboard](Dashboard%201%20(6).png)
 
 ## Key Performance Indicators (KPIs)
 
